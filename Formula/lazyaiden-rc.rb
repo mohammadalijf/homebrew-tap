@@ -27,7 +27,6 @@ class LazyaidenRc < Formula
     end
   end
 
-  conflicts_with "lazyaiden", because: "both install the lazyaiden and lazyaiden-cli binaries"
 
   def install
     bin.install "lazyaiden", "lazyaiden-cli"
